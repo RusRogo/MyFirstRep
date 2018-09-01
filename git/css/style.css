@@ -1,0 +1,140 @@
+* {
+	order: 1px solid blue;
+	box-sizing: border-box;
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+
+}
+
+.bod {
+	padding: 0 155px;
+	background-color: #f9f9f9;
+}
+
+.main {
+	padding: 0 45px;
+	border-left: 1px solid #c8c8c8;
+	border-right: 1px solid #c8c8c8;
+	background-color: #fff;
+}
+
+header img {
+	margin: 50px 0 40px 0;
+}
+
+.headMenu ul {
+	font-size: 0;
+	background-color: #535252;
+}
+
+.headMenu li {
+	display: inline-block;
+}
+
+.headMenu li a {
+	display: block;
+	width: 145px;
+	height: 40px;
+	padding: 12px 25px;
+	color: white;
+	font-family: Myriad Pro;
+	font-size: 15px;
+	background-color: #535252;
+	text-decoration: none;
+}
+
+.headMenu a:hover {
+	background-color: #3c3c3c;
+	border-right: 1px solid #838383;
+	border-left: 1px solid #838383;
+	padding-left: 35px;
+	color: #e1e2f3;
+}
+
+.sideBar {
+	font-size: 0;
+	margin: 40px 0;
+	width: 240px;
+	float: left;
+	border-bottom: 1px solid #c8c8c8;
+}
+
+.sideBar a {
+	display: block;
+	width: 240px;
+	height: 40px;
+	padding: 12px 25px;
+	color: white;
+	font-family: Myriad Pro;
+	font-size: 15px;
+	background-color: #fff;
+	text-decoration: none;
+	border: 1px solid #c8c8c8;
+	border-bottom: 0px;
+	color: #656363;
+}
+
+.sideBar a:hover {
+	background-color: #f9f9f9;
+	padding-left: 35px;
+	color: #333333;
+}
+
+.bike {
+	width: 678px;
+	height: 400px;
+	float: right;
+	padding: 50px 90px;
+	margin-top: 40px;
+	border: 1px solid #c8c8c8;
+}
+
+p {
+	width: 678px;
+	font-family: Myriad Pro;
+	font-size: 14px;
+	text-align: left;
+	display: inline-block;
+	float: right;
+	padding: 40px 20px;
+}
+
+.footer ul {
+	font-size: 0;
+	display: inline-block;
+	width: 940px;
+	height: 40px;
+	margin-bottom: 50px;
+	background-color: #e1e1e1;
+}
+
+.footer li {
+	display: inline-block;
+
+}
+
+.footer li a {
+	background-color: #e1e1e1;
+	display: inline-block;
+	width: 145px;
+	height: 40px;
+	padding: 12px 25px;
+	color: white;
+	font-family: Myriad Pro;
+	font-size: 15px;
+	background-color: #e1e1e1;
+	text-decoration: none;
+	color: #2c2c2c;
+}
+
+.foota {
+	float: right;
+	width: 143px;
+}
+
+.footer li a:hover {
+	text-decoration: underline;
+	padding-left: 45px;
+}
+

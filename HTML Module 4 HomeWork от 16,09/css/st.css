@@ -1,0 +1,336 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-image: url(../img/background.jpg);
+	width: 100%;
+	height: 100%;
+}
+
+.top_googlehead {
+	display: block;
+	width: 100%;
+}
+
+main {
+	margin: 0 150px;
+	background-color: #fff;
+	box-shadow: 1px 3px 10px #000;
+}
+
+/*Header*/
+
+.header__container {
+	position: relative;
+	height: 173px;
+}
+
+.logo {
+	position: absolute;
+	left: 27px;
+	bottom: 0;
+}
+
+.text_in_logo, 
+.contact1, 
+.contact2, 
+.contact3, 
+.contact4, 
+
+.countries__india,
+.countries__nepal,
+.countries__tibet,
+.countries__butan,
+ .countries__Shri-Lanka,
+ .countries__maldives {
+	position: absolute;
+	font-family: Tahoma, non-serif;
+	font-size: 12px;
+	color: #128aa7;
+}
+
+.text_in_logo {
+	left: 99px;
+	bottom: 53px;
+}
+
+/*Contacts*/
+
+.contact1 {
+	top: 11px;
+	right: 62px;
+	font-weight: 600;
+}
+
+.contact2 {
+	top: 27px;
+	right: 69px;
+}
+
+.contact3 {
+	top: 45px;
+	right: 69px;
+}
+
+.contact4 {
+	top: 67px;
+	right: 43px;
+}
+
+.contact4 a {
+	text-decoration: none;
+	font-family: Tahoma, non-serif;
+	font-size: 12px;
+	color: #128aa7;
+}
+
+/*Countries*/
+
+.countries__india a,
+.countries__nepal a,
+.countries__tibet a,
+.countries__butan a,
+.countries__Shri-Lanka a,
+.countries__maldives a {
+	font-family: Tahoma, non-serif;
+	font-size: 10px;
+	color: #128aa7;
+}
+
+.countries__india {
+	top: 111px;
+	right: 317px;
+	text-align: center;
+}
+
+
+.countries__nepal {
+	top: 111px;
+	right: 259px;
+	text-align: center;
+}
+
+.countries__tibet {
+	top: 111px;
+	right: 203px;
+	text-align: center;
+}
+
+.countries__butan {
+	top: 111px;
+	right: 148px;
+	text-align: center;
+}
+
+.countries__Shri-Lanka {
+	top: 111px;
+	right: 89px;
+	text-align: center;
+}
+
+.countries__maldives {
+	top: 111px;
+	right: 35px;
+	text-align: center;
+}
+
+/*Img-bottom-header*/
+
+.pier_img {
+	display: block;
+	width: 100%;
+	height: 240px;
+}
+
+/*content*/
+
+.content {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	font-family: Tahoma, non-serif;
+	font-size: 14px;
+	color: #424c43;
+	background: powderblue;
+}
+
+/*Navigate__menu*/
+/*Треугольник*/
+
+.menu_triangle {
+	margin: 4px 0 0 8px;
+	width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 8px solid #fff;
+}
+
+.content__menu {
+	display: block;
+	width: 100%;
+	background: #323232;
+}
+
+.content__menu_head {
+	display: flex;
+	flex-flow: row wrap;
+	list-style: none;
+	background: #323232;
+	justify-content: space-around;
+}
+
+.content__menu_head a {
+	width: 100%;
+	padding: 9px 0 9px 10px;
+	text-decoration: none;
+	font-family: Tahoma, non-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	display: flex;
+}
+
+.menu__list {
+	position: relative;
+}
+
+.menu__drop {
+	list-style: none;
+	position: absolute;
+	top: 100%;
+	width: 100%;
+	display: none;
+}
+
+.menu__drop li {
+	background: #323232;
+}
+
+.content__menu_head a:hover {
+	color: tan;
+	transition: 0.5s all;
+}
+
+.menu__drop a:hover {
+	padding: 9px 0px 9px 15px;
+	width: 100%;
+}
+
+/*Columns*/
+
+.content__left, .content__right {
+	border-left: 0px solid #c7cacf;
+	border-right: 0px solid #c7cacf;
+	background: #edeef0;
+	width: 33%;
+}
+
+.content__center {
+	width: 33%;
+	background: #fff;
+	text-align: center;
+}
+
+.content__h {
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.content p {
+	padding: 8px 15px;
+	text-align: left;
+	line-height: 160%;
+}
+
+/*adaptive*/
+
+@media (min-width: 801px) {
+	.menu__list:hover .menu__drop {
+		display: block;
+}
+}
+
+@media (max-width: 800px) {
+
+	.pier_img {
+	display: block;
+	width: 100%;
+	height: 120px;
+	}
+
+	.content__menu {
+		background-color: #fff
+	}
+
+	.content a {
+		font-size: 9px;
+		box-sizing: border-box;
+	}
+
+	p {
+		font-size: 8px;
+	}
+	
+	.content__h {
+		font-size: 10px
+	}
+
+	.content__right {
+		width: 100%;
+	}
+
+	.content__menu {
+		display: flex;
+		width: 33%;
+	}
+
+	.content__menu_head {
+	display: flex;
+	flex-direction: column;
+	}
+
+	.menu__drop {
+		top: 0;
+		left: 100%;
+	}
+	.menu__list:hover .menu__drop {
+		display: block;
+	}
+
+	.menu__list:active .menu__drop {
+		display: block;
+	}
+}
+
+/*@media (min-width: 1920px) {
+		.menu {
+	display: flex;
+	flex-direction: column;
+	width: 150px;
+	padding-left: 10px;
+}
+	.menu__drop {
+		top: 0;
+		left: 100%;
+}
+	.menu__list:hover .menu__drop {
+		display: block;
+}
+}*/
+
+footer {
+	text-align: center;
+	padding: 8px 0;
+}
+
+footer a {
+	font-family: Tahoma, non-serif;
+	font-size: 12px;
+	color: #dee7ee;
+	text-decoration: none;
+}
